@@ -105,9 +105,6 @@ nav a:hover{
     cursor: pointer;
 }
 
-.contact-inputs::placeholder{
-}
-
 .contact-inputs:focus{
     border: 2px solid rgba(129, 63, 129, 0.616);
 }
