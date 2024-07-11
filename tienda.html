@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pink floyd</title>
+        <link rel="icon" type="imgages/png" href="imagenes/1391682-200.png">
+        <link rel="stylesheet" href="styleTienda.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imagenes/Pink_Floyd_-_all_members.jpg" alt="Logo de Empresa XYZ">
+                </a>
+                <h1 class="Nombre Empresa"> Pink Floyd</h1>
+            </div>
+            
+            <nav>
+                <a href="index.html" title="volver a la página principal">Inicio</a></li>
+                <a href="https://music.youtube.com/channel/UCO6LS_5W7vqG9mALDNzSFug" target="_blank" title="Canal de youtube">Youtube Music</a></li>
+                <a href="canciones.html" title="Canciones populares"> Canciones </a></li>
+                <a class="tienda" title="Tienda de merchandise">Tienda </a></li>
+                <a href="contacto.html" title="Información de contacto">Contacto</a></li>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <div class="productos">
+
+                    <div class="producto">
+
+                        <a title="Vinilo">
+                            <img src="imagenes/35220709_so.jpg" alt="The dark side of the moon album">
+                        </a>
+                        <h2>Disco de vinilo</h2>
+                        <p>Vinilo clásico de "Wish You Were Here". La perfecta adición para cualquier colección de música. Disponible por tiempo limitado.</p>
+                        <h3>$11500</h3>
+
+                        <button type="submit" class="btn" onclick="openPopup(1)">Comprar</button>
+                        <div class="popup" id="popup1">
+
+                            <img src="imagenes/35220709_so.jpg" alt="The dark side of the moon album">
+                            <h2>Disco de vinilo</h2>
+                            <p>Vinilo clásico de "Wish You Were Here". La perfecta adición para cualquier colección de música. Disponible por tiempo limitado.</p>
+                            <h3>$11500</h3>
+
+                            <label for="nombre">Seleccionar cantidad:</label><br>
+                            <input type="text" name="name" placeholder="ej:3" class="amount-items" id="cantProd1" required><br><br>
+
+                            <button type="button" class="cancelar" onclick="closePopup(1)">Cancelar</button>
+                            <button type="button" class="aceptar" onclick="amountImput(1)" id="ingresoCant">Finalizar compra</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="producto">
+
+                        <a title="Taza">
+                            <img src="imagenes/3089.jpg" alt="The dark side of the moon album">
+                        </a>
+                        <h2>Taza</h2>
+                        <p>Elegante, emblemática y perfecta para cualquier amante de la música. Captura la esencia de la legendaria banda británica en cada sorbo, combinando estilo y nostalgia en un único objeto de colección.</p>
+                        <h3>$6300</h3>
+
+                        <button type="submit" class="btn" onclick="openPopup(2)">Comprar</button>
+                        <div class="popup" id="popup2">
+
+                            <img src="imagenes/3089.jpg" alt="The dark side of the moon album">
+                            <h2>Taza</h2>
+                            <p>Elegante, emblemática y perfecta para cualquier amante de la música. Captura la esencia de la legendaria banda británica en cada sorbo, combinando estilo y nostalgia en un único objeto de colección.</p>
+                            <h3>$6300</h3>
+
+                            <label for="nombre">Seleccionar cantidad:</label><br>
+                            <input type="text" name="name" placeholder="ej:3" class="amount-items" id="cantProd2" required><br><br>
+
+                            <button type="button" class="cancelar" onclick="closePopup(2)">Cancelar</button>
+                            <button type="button" class="aceptar" onclick="amountImput(2)" id="ingresoCant">Finalizar compra</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="producto">
+
+                        <a title="Remera">
+                            <img src="imagenes/s-l1200.webp" alt="The dark side of the moon album">
+                        </a>
+                        <h2>Remera</h2>
+                        <p>Diseño clásico del prisma en tonos sutiles sobre fondo negro, ideal para aficionados discretos pero apasionados por la música y el estilo.</p>
+                        <h3>$5800</h3>
+
+                        <button type="submit" class="btn" onclick="openPopup(3)">Comprar</button>
+                        <div class="popup" id="popup3">
+
+                            <img src="imagenes/s-l1200.webp" alt="The dark side of the moon album">
+                            <h2>Remera</h2>
+                            <p>Diseño clásico del prisma en tonos sutiles sobre fondo negro, ideal para aficionados discretos pero apasionados por la música y el estilo.</p>
+                            <h3>$5800</h3>
+
+                            <label for="nombre">Seleccionar cantidad:</label><br>
+                            <input type="text" name="name" placeholder="ej:3" class="amount-items" id="cantProd3" required><br><br>
+
+                            <button type="button" class="cancelar" onclick="closePopup(3)">Cancelar</button>
+                            <button type="button" class="aceptar" onclick="amountImput(3)" id="ingresoCant">Finalizar compra</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="producto">
+
+                        <a title="Llavero">
+                            <img src="imagenes/Gumen-klyuchodarzhatel---Pink-Floyd-14507-1-950x950.jpg" alt="The dark side of the moon album">
+                        </a>
+                        <h2>Llavero</h2>
+                        <p>Llavero exclusivo en forma de púa de guitarra. Con un diseño fiel a la estética del grupo, este pequeño accesorio es perfecto para los fans que buscan llevar consigo un detalle discreto pero significativo de su música favorita.</p>
+                        <h3>$4100</h3>
+
+                        <button type="submit" class="btn" onclick="openPopup(4)">Comprar</button>
+                        <div class="popup" id="popup4">
+
+                            <img src="imagenes/Gumen-klyuchodarzhatel---Pink-Floyd-14507-1-950x950.jpg" alt="The dark side of the moon album">
+                            <h2>Llavero</h2>
+                            <p>Llavero exclusivo en forma de púa de guitarra. Con un diseño fiel a la estética del grupo, este pequeño accesorio es perfecto para los fans que buscan llevar consigo un detalle discreto pero significativo de su música favorita.</p>
+                            <h3>$4100</h3>
+
+                            <label for="nombre">Seleccionar cantidad:</label><br>
+                            <input type="text" name="name" placeholder="ej:3" class="amount-items" id="cantProd4" required><br><br>
+
+                            <button type="button" class="cancelar" onclick="closePopup(4)">Cancelar</button>
+                            <button type="button" class="aceptar" onclick="amountImput(4)" id="ingresoCant">Finalizar compra</button>
+
+                        </div>
+
+                    </div>
+            </div>
+
+            <script src="scriptTienda.js"></script>
+
+        </main>
+
+    </body>
+</html>

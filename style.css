@@ -1,0 +1,77 @@
+body{
+    font-family: Verdana, arial;
+    border: none;
+    background-image: url(imagenes/dimmed_background.jpg);
+    background-position: center;
+    background-position-y: 0px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+header{
+    background-color:rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 0 0 5px black;
+    padding: 10px;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.inicio{
+    color: rgba(129, 63, 129, 0.616)
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 35px;
+}
+
+nav a:hover{
+    color: rgba(129, 63, 129, 0.616)
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_video{
+    background-color:rgb(44, 44, 44) ;
+    position: relative;
+    top: 170px;
+    padding: 15px;
+    box-shadow: 0 0 30px black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.main_video video{
+    height: 350px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.main_video_link{
+    justify-content: center;
+}
+
+.main_video a:hover{
+    color: rgba(129, 63, 129, 0.616)
+}

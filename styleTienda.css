@@ -1,0 +1,135 @@
+body{
+    font-family: Verdana, arial;
+    border: none;
+    background-image: url(imagenes/dimmed_background.jpg);
+    background-position: center;
+    background-position-y: 0px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+header{
+    background-color:rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: normal;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.tienda{
+    color: rgba(129, 63, 129, 0.616)
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 35px;
+}
+
+nav a:hover{
+    color: rgba(129, 63, 129, 0.616)
+}
+
+.productos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    color: white;
+}
+
+.productos div{
+    padding: 30px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.producto a{
+    display: flex;
+    height: 200px;
+}
+
+.producto h2{
+    justify-content: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    color: #ffffff;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background: green;
+    cursor: pointer;
+}
+
+.aceptar{
+    padding: 5px 10px;
+    color: #ffffff;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background: green;
+    cursor: pointer;
+}
+
+.cancelar{
+    padding: 5px 10px;
+    color: #000000;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(177, 177, 177);
+    cursor: pointer;
+}
+
+.popup{
+    
+    width: 800px;
+    height: 800px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #ffffff;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.popup img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.open-popup{
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup input{
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+}
